@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 7px;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 30%;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 550;
+  background-color: rgb(170, 185, 105);
+}
+#c{
+    width: 66px;
+    padding: 20px;
+    margin: 0 5px;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 30%;
+    background-color: rgb(223, 78, 78);
+  }
+  #x{
+    width: 66px;
+    padding: 20px;
+    margin: 0 5px;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 30%;
+    background-color: rgba(57, 55, 61, 0.678);
+  }
+  #plus{
+    width: 66px;
+    padding: 20px;
+    margin: 0 5px;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 30%;
+    background-color: rgb(233, 170, 77);
+  }
+  #div{
+    width: 66px;
+    padding: 20px;
+    margin: 0 5px;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 30%;
+    background-color: rgb(116, 141, 212);
+  }
+  #mul{
+    width: 66px;
+    padding: 20px;
+    margin: 0 5px;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 30%;
+    background-color: rgb(189, 75, 218);
+  }
+  #sub{
+    width: 66px;
+    padding: 20px;
+    margin: 0 5px;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 30%;
+    background-color: rgb(231, 126, 170);
+  }
+
+
+.row{
+  margin: 8px 0;
+}
+.row button:hover{
+    font-size: 25px;
+    width: 70px;
+}
+.row input{
+    width: 291px;
+    height: 30px;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-left: 0px;
+    border-top: 0px;
+    border-radius: 10px;
+    background-color: rgba(194, 188, 226, 0.918);
+    text-align: center;
+}
+
+  .calcu{
+    margin:  80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(124, 127, 138, 0.911);
+    width: 380px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+  }
